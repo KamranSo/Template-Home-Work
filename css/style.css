@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+}
+.navbar-left {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #898989;
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/03/left-menu-background.jpg);
+}
+
+/*## Logo Style */
+
+.logo>img {
+    margin: 50px 0 0 50px;
+    color: black;
+    width: 80%;
+}
+
+div.nav-menu {
+    margin-top: 30px;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+ul.menu>li.menu-item {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+ul.menu>li>a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+
+/* ul.menu>li>a>.left-icon:hover {
+    
+    color: #d34e35;
+    transition-property: color;
+    transition: all .5s ease-in;
+} */
+
+.inner>.links {
+    bottom: 65px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+.inner>.links a {
+    color: white;
+    margin: 0px -1px;
+    transition: .6s;
+    margin-right: 12px
+    
+}
+
+.inner>.links a:hover {
+    color:  #5d5d5d;
+}
+
+.content {
+    max-width: 100%;
+    margin-left: 250px;
+}
+
+
+.content-page{
+    height: 100vh;
+    background-color: #ff4b36;
+}
+.left-icon{
+    float: left;
+    margin: 6px 11px 4px -10px;
+}
+.menu-item{
+    color: white;
+    margin-bottom: 10px;
+}
+.menu-item-two{
+    margin: 6px 11px 4px -10px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 12px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-left: -18px;
+}
+.menu-item-two>ul>li{
+    list-style: none;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+/* .menu-item-two ul li:hover .menu-item-two ul li a{
+    cursor: pointer;
+    color: #ff4b36;
+    transition: all .5s ease-in;
+} */
+.menu li:hover .menu li a{
+    color: red;
+}
+.right-icon{
+    float: right;
+    margin-top: 7px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.title{
+    margin: 50px 0px 0px 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+.pictures{
+   float: left;
+   display: grid;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: calc((100%-250px)/3) calc((100%-250px)/3) calc((100%-250px)/3);
+    margin-left: 250px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e1e2e559;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+  }
+  .grid-item >img{
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+  }
+  .grid-item>h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #555555;
+    cursor: pointer;
+    margin: 0;
+  }
+  .grid-item>h3:hover{
+      color: #d34e35;
+      transition: all .5s ease-in;
+  }
+
+  .grid-item>p{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #d34e35;
+    cursor: pointer;
+    margin: 0;
+  }
+  .btn{
+    width: 125px;
+    height: 45px;
+    cursor: pointer;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #707070;
+    background-color: #f6f5f5;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2px;
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+
+  }
+  .btn:hover{
+      color:#f6f5f5 ;
+      background-color: #d34e35;
+      transition: all .5s ease-in;
+  }
+  /* .icon-center{
+    position: absolute;
+    text-align: center;
+    margin: 127px 10px 0px -167px;
+    font-size: 45px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #d34e35;
+    
+} */
+.icon-center:hover{
+display:inline-block;
+}
+  
+.picture-icon-center{
+    position: relative;
+}
+.grid-item .icon-pic img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid-item .icon-pic{
+    position: relative;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.icon-pic::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.icon-pic i{
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    font-size: 40px;
+}
+.grid-item:hover .icon-pic::before{
+    opacity: 0.7;
+}
+.grid-item:hover i{
+    opacity: 1;
+}
+
+.navbar-left .inner .nav-menu ul.menu li.menu-item:hover{
+    color: #d34e35;
+}
+.menu-item{
+    transition: all .3s ease;
+}
+.menu-item a{
+    color: white;
+    transition: all .3s ease;
+}
+.menu-item:hover a{
+    color: #d34e35;;
+}
+.menu-item-two li{
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.menu-item-two li:hover{
+    color: #d34e35;;
+}
+.active{
+    color: #d34e35;;
+}
+.active a{
+    color: #d34e35;;
+}
+footer{
+  padding:  40px 40px;
+  background-color:#1e1d1d;
+  margin-left: 250px;
+}
+.text-side{
+    display: inline-block;
+    margin: 0;
+    margin-top: 15px;
+}
+.text-side pre{
+    display: inline-block;
+    color:  #AAAAAA;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.text-side pre:hover{
+    color: white;
+}
+.sosial{
+    color: white;
+    left: 0;
+    float: right;
+    margin-top: 15px;
+}
+.sosial p{
+    margin-left: 10px;
+    margin-right: 10px; 
+    display: inline-block;
+    cursor: pointer;
+    color:#AAAAAA;
+}
+.sosial span{
+    display: inline-block;
+    cursor: pointer;
+    color: #AAAAAA;
+}
+.sosial>p:hover{
+    color: white;
+}
+.sosial>span:hover{
+    color: #393939;
+    transition: all .3s ease-in;
+}
